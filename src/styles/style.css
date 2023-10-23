@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat";
+  background-color: #1e1e1e;
+  color: rgb(232, 232, 232);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-bottom: 1px solid white;
+}
+
+.search-text {
+  width: 400px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding-left: 18px;
+}
+
+.input-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-title-notes {
+    width: 400px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.input-body-notes {
+    width: 400px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid white;
+    height: 160px;
+}
+
+.btn-addnote {
+    padding: 10px 32px 10px 32px;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-addnote:hover {
+  color: black;
+  background-color: white;
+}
+
+.title-notes {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-notes {
+    display: flex;
+    flex-wrap:wrap;
+    width: 1200px;
+    justify-content: center;
+}
+
+.note-card {
+    display: flex;
+    margin-right: 10px;
+    width: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+.list-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.btn-notes:hover {
+  color: black;
+  background-color: white;
+}
+
+.tanggal {
+  font-size: small;
+}
